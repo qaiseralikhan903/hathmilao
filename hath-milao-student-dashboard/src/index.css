@@ -1,0 +1,449 @@
+.job-box {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.date-input {
+  border: 1px solid #cad1d7;
+  border-radius: 0.375rem;
+  box-shadow: none;
+}
+/* Multiple Text Input Setting Start*/
+.tag-setting {
+  background: #1fd0f0;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #3c3c3c;
+  margin-right: 2px;
+  line-height: 3;
+  text-transform: lowercase;
+
+  /* background: #f6f7f7;
+  padding: 0 11px;
+  border-radius: 140px;
+  font-size: 14px;
+  color: #3c3c3c;
+  margin-right: 2px;
+  line-height: 3;
+  text-transform: lowercase;
+  border: 1px solid #ccc; */
+}
+
+.tag-icon {
+  font-size: 10px;
+  color: #ccc !important;
+  cursor: pointer;
+}
+
+.tag-add {
+  color: #fff;
+  background-color: #11cdef;
+  cursor: pointer;
+}
+/* Multiple Text Input Setting End*/
+
+.skill-tag {
+  background: #1fd0f0;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  color: #3c3c3c !important;
+  margin-right: 2px;
+  line-height: 2;
+  text-transform: uppercase;
+  display: inline;
+
+  /* background: #f6f7f7;
+  padding: 0 11px;
+  border-radius: 140px;
+  font-size: 14px;
+  color: #3c3c3c;
+  margin-right: 2px;
+  line-height: 3;
+  text-transform: lowercase;
+  border: 1px solid #ccc;
+  display: inline; */
+}
+
+.profile-img {
+  height: 200px;
+}
+
+.capital-first-word {
+  text-transform: capitalize;
+}
+
+.display-tag {
+  font-size: 11px;
+  padding-left: 10px !important;
+  font-weight: 600;
+  background: #1fd0f0;
+  padding: 5px;
+  border-radius: 5px;
+  color: #3c3c3c !important;
+  margin-right: 2px;
+  line-height: 2;
+  text-transform: uppercase;
+}
+
+.logo {
+  display: block;
+  text-align: center !important;
+  padding-top: 1rem !important;
+  color: #12caef !important;
+}
+
+.margin-20 {
+  margin-top: -20px !important;
+}
+
+.github-logo-setting {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 35px !important;
+}
+
+.github {
+  font-size: 20px;
+}
+
+.preserve-spaces {
+  white-space: pre-wrap;
+}
+
+.email-text {
+  color: #3b9df1;
+}
+
+.profile-pic {
+  height: 12rem;
+}
+
+.company-logo-show {
+  height: 4rem;
+}
+
+.line-height-2 {
+  line-height: 2;
+}
+
+.company-border-box {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+.hath-milao-color {
+  color: #12caef !important;
+}
+
+.mt--12 {
+  margin-top: -12rem !important;
+}
+
+.bg-custom-color {
+  background-color: #172b4d;
+}
+.color-white {
+  color: white;
+}
+
+#barchart1 .apexcharts-legend {
+  margin-left: 50%;
+}
+
+.date-apply-success {
+  color: #2dce89 !important;
+}
+.date-apply-danger {
+  color: red;
+}
+
+.sorry-badge {
+  margin-right: 10px !important;
+  font-size: 0.75rem !important;
+  padding: 0.5rem 0.5rem !important;
+}
+
+.pd-0 {
+  padding: 0px !important;
+}
+
+.contact {
+  font-size: 12px !important;
+  padding: 8px !important;
+}
+
+.notification {
+  font-size: 20px !important;
+  color: white !important;
+}
+
+.notification-mobile {
+  font-size: 20px !important;
+  color: grey !important;
+}
+
+.ant-avatar {
+  width: 2.5rem !important;
+  height: 3.5rem !important;
+  border-radius: 10% !important;
+  margin-right: 10px !important;
+}
+
+/* Bell Animation Start */
+
+.bell {
+  display: block;
+  width: 40px;
+  font-size: 30px;
+  color: #4ff31a;
+  -webkit-animation: ring 4s 0.7s ease-in-out infinite;
+  -webkit-transform-origin: 50% 4px;
+  -moz-animation: ring 4s 0.7s ease-in-out infinite;
+  -moz-transform-origin: 50% 4px;
+  animation: ring 4s 0.7s ease-in-out infinite;
+  transform-origin: 50% 4px;
+}
+
+@-webkit-keyframes ring {
+  0% {
+    -webkit-transform: rotateZ(0);
+  }
+  1% {
+    -webkit-transform: rotateZ(30deg);
+  }
+  3% {
+    -webkit-transform: rotateZ(-28deg);
+  }
+  5% {
+    -webkit-transform: rotateZ(34deg);
+  }
+  7% {
+    -webkit-transform: rotateZ(-32deg);
+  }
+  9% {
+    -webkit-transform: rotateZ(30deg);
+  }
+  11% {
+    -webkit-transform: rotateZ(-28deg);
+  }
+  13% {
+    -webkit-transform: rotateZ(26deg);
+  }
+  15% {
+    -webkit-transform: rotateZ(-24deg);
+  }
+  17% {
+    -webkit-transform: rotateZ(22deg);
+  }
+  19% {
+    -webkit-transform: rotateZ(-20deg);
+  }
+  21% {
+    -webkit-transform: rotateZ(18deg);
+  }
+  23% {
+    -webkit-transform: rotateZ(-16deg);
+  }
+  25% {
+    -webkit-transform: rotateZ(14deg);
+  }
+  27% {
+    -webkit-transform: rotateZ(-12deg);
+  }
+  29% {
+    -webkit-transform: rotateZ(10deg);
+  }
+  31% {
+    -webkit-transform: rotateZ(-8deg);
+  }
+  33% {
+    -webkit-transform: rotateZ(6deg);
+  }
+  35% {
+    -webkit-transform: rotateZ(-4deg);
+  }
+  37% {
+    -webkit-transform: rotateZ(2deg);
+  }
+  39% {
+    -webkit-transform: rotateZ(-1deg);
+  }
+  41% {
+    -webkit-transform: rotateZ(1deg);
+  }
+
+  43% {
+    -webkit-transform: rotateZ(0);
+  }
+  100% {
+    -webkit-transform: rotateZ(0);
+  }
+}
+
+@-moz-keyframes ring {
+  0% {
+    -moz-transform: rotate(0);
+  }
+  1% {
+    -moz-transform: rotate(30deg);
+  }
+  3% {
+    -moz-transform: rotate(-28deg);
+  }
+  5% {
+    -moz-transform: rotate(34deg);
+  }
+  7% {
+    -moz-transform: rotate(-32deg);
+  }
+  9% {
+    -moz-transform: rotate(30deg);
+  }
+  11% {
+    -moz-transform: rotate(-28deg);
+  }
+  13% {
+    -moz-transform: rotate(26deg);
+  }
+  15% {
+    -moz-transform: rotate(-24deg);
+  }
+  17% {
+    -moz-transform: rotate(22deg);
+  }
+  19% {
+    -moz-transform: rotate(-20deg);
+  }
+  21% {
+    -moz-transform: rotate(18deg);
+  }
+  23% {
+    -moz-transform: rotate(-16deg);
+  }
+  25% {
+    -moz-transform: rotate(14deg);
+  }
+  27% {
+    -moz-transform: rotate(-12deg);
+  }
+  29% {
+    -moz-transform: rotate(10deg);
+  }
+  31% {
+    -moz-transform: rotate(-8deg);
+  }
+  33% {
+    -moz-transform: rotate(6deg);
+  }
+  35% {
+    -moz-transform: rotate(-4deg);
+  }
+  37% {
+    -moz-transform: rotate(2deg);
+  }
+  39% {
+    -moz-transform: rotate(-1deg);
+  }
+  41% {
+    -moz-transform: rotate(1deg);
+  }
+
+  43% {
+    -moz-transform: rotate(0);
+  }
+  100% {
+    -moz-transform: rotate(0);
+  }
+}
+
+@keyframes ring {
+  0% {
+    transform: rotate(0);
+  }
+  1% {
+    transform: rotate(30deg);
+  }
+  3% {
+    transform: rotate(-28deg);
+  }
+  5% {
+    transform: rotate(34deg);
+  }
+  7% {
+    transform: rotate(-32deg);
+  }
+  9% {
+    transform: rotate(30deg);
+  }
+  11% {
+    transform: rotate(-28deg);
+  }
+  13% {
+    transform: rotate(26deg);
+  }
+  15% {
+    transform: rotate(-24deg);
+  }
+  17% {
+    transform: rotate(22deg);
+  }
+  19% {
+    transform: rotate(-20deg);
+  }
+  21% {
+    transform: rotate(18deg);
+  }
+  23% {
+    transform: rotate(-16deg);
+  }
+  25% {
+    transform: rotate(14deg);
+  }
+  27% {
+    transform: rotate(-12deg);
+  }
+  29% {
+    transform: rotate(10deg);
+  }
+  31% {
+    transform: rotate(-8deg);
+  }
+  33% {
+    transform: rotate(6deg);
+  }
+  35% {
+    transform: rotate(-4deg);
+  }
+  37% {
+    transform: rotate(2deg);
+  }
+  39% {
+    transform: rotate(-1deg);
+  }
+  41% {
+    transform: rotate(1deg);
+  }
+
+  43% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+/* Bell Animation End */
