@@ -1,0 +1,653 @@
+
+STUDENT APIS REQUIREMENTS
+
+PROFILE SECTION:-
+
+               => Student/profile/basic
+                    
+                    1. Add Information
+
+                         [POST] 
+                       =>/profile/basic/
+                        
+                         * userid
+                         * Image
+                         * name
+                         * headline 
+                         * summary
+                         * githubLink 
+                         * City
+                         * Country
+                         * phoneNumber 
+                         * headline 
+
+                    2. Update Information
+                      
+                         [PUT]
+                       =>/profile/basic/
+                          
+                         * Image
+                         * headline 
+                         * summary
+                         * githubLink 
+                         * Address ( City, Country )
+                         * phoneNumber 
+                         * headline 
+
+                    3. View Information
+                      
+                         [GET]
+                       =>/profile/basic/
+                          
+                         * Image
+                         * headline 
+                         * summary
+                         * githubLink 
+                         * Address ( City, Country )
+                         * phoneNumber 
+                         * headline 
+
+
+               => Student/profile/education
+               
+                    1. Add Information
+
+                         [POST] 
+                       =>/profile/education
+                          
+                         * insitution
+                         * degree
+                         * startdate 
+                         * enddate
+                         * description
+
+                    2. Update Information
+                      
+                         [PUT]
+                       =>/profile/education
+                          
+                         * insitution
+                         * degree
+                         * startdate 
+                         * enddate
+                         * description
+
+                    3. View Information
+                      
+                         [GET]
+                       =>/profile/education
+                          
+                         * insitution
+                         * degree
+                         * startdate 
+                         * enddate
+                         * description
+
+
+               => Student/profile/experience
+               
+                    1. Add Information
+
+                         [POST] 
+                       =>/profile/experience
+                          
+                         * title
+                         * location
+                         * startdate 
+                         * enddate
+                         * description
+
+                    2. Update Information
+                      
+                         [PUT]
+                       =>/profile/experience
+                          
+                         * title
+                         * location
+                         * startdate 
+                         * enddate
+                         * description
+
+                    3. View Information
+                      
+                         [GET]
+                       =>/profile/experience
+                          
+                         * title
+                         * location
+                         * startdate 
+                         * enddate
+                         * description
+
+               => Student/profile/other
+
+                    1. Add Information
+
+                         [POST] 
+                       =>/profile/other
+                          
+                         * skill =>string array
+                         * language =>string array
+                         * cvurl
+                         * looking
+                         * desiredjob
+
+                    2. Update Information
+                      
+                         [PUT]
+                       =>/profile/other
+                          
+                         * skill =>string array
+                         * language =>string array
+                         * cvurl
+                         * looking
+                         * desiredjob
+
+                    3. View Information
+                      
+                         [GET]
+                       =>/profile/other
+                          
+                         * skill =>string array
+                         * language =>string array
+                         * cvurl
+                         * looking
+                         * desiredjob
+
+JOBS SECTION:-
+
+                => Student/job
+                    
+                    1. Save Job Information
+
+                         [POST] 
+                       =>Student/Job/save
+                          
+                         * userid
+                         * jobid 
+
+                         [GET] 
+                       =>Student/Job/save
+                          
+                         return all save jobs to user
+                        
+                         [delete] 
+                       =>Student/Job/save
+                          
+                         * userid
+                         * jobid 
+
+                    2. Search Job Information
+                      
+                         [GET]
+                       =>Student/Job/Search/
+                          
+                         * location
+                         * title 
+
+                    3. View All Job
+                      
+                         [GET]
+                       =>/Student/job
+
+                         return all jobs from recommendation engine.
+                    4. Apply Job
+                      
+                         [POST]
+                       =>/Student/job
+                         
+                         * userid
+                         * Jobid
+
+EVENTS SECTION:-
+
+                => Student/event
+                    
+                    1. Save event Information
+
+                         [POST] 
+                       =>Student/event/save
+                          
+                         * userid
+                         * eventid 
+
+                         [GET] 
+                       =>Student/event/save
+                          
+                         return all save events to user
+                        
+                         [delete] 
+                       =>Student/event/save
+                          
+                         * userid
+                         * eventid 
+
+                    2. Search event Information
+                      
+                         [GET]
+                       =>Student/event/Search/
+                          
+                         * location
+                         * events tags 
+
+                    3. View All event
+                      
+                         [GET]
+                       =>/Student/event
+
+                         return all event.
+                         
+FINAL YEAR PROJECT SECTION:-
+
+                => Student/FYP
+                    
+                    1. Save FYP Information
+
+                         [POST] 
+                       =>Student/FYP/save
+                          
+                         * userid
+                         * FYPid 
+
+                         [GET] 
+                       =>Student/FYP/save
+                          
+                         return all save FYP to user
+                        
+                         [delete] 
+                       =>Student/event/save
+                          
+                         * userid
+                         * eventid 
+
+                    2. Search FYP Information
+                      
+                         [GET]
+                       =>Student/FYP/Search/
+                          
+                         * location
+                         * required skill 
+
+                    3. View All FYP
+
+                          [GET]
+                       =>/Student/FYP
+
+                         return all FYP.
+                    4. Apply Job
+                      
+                         [POST]
+                       =>/Student/FYP
+                         
+                         *userid
+                         *fypid
+
+CHALLENAGES SECTION:-
+
+                => Student/challenge
+                    
+                    //Optional 
+                    1. Save challenge Information
+
+                         [POST] 
+                       =>Student/challenge/save
+                          
+                         * userid
+                         * challengeid 
+
+                         [GET] 
+                       =>Student/challenge/save
+                          
+                         return all save challenge to user
+                        
+                         [delete] 
+                       =>Student/challenge/save
+                          
+                         * userid
+                         * challengeid 
+
+                    2. Search challenge Information
+                      
+                         [GET]
+                       =>Student/challenge/Search/
+                          
+                         * location
+                         * challenge tags 
+
+                    3. View All challenge
+
+                          [GET]
+                       =>/Student/challenge
+
+                         return all challenge.
+                    4. Submit challenge
+                      
+                         [POST]
+                       =>/Student/challenge
+                         
+                         *userid
+                         *challengeid
+
+CAREER CENTER APIS REQUIREMENTS
+
+PROFILE SECTION:-
+
+               => university/profile/basic
+                    
+                    1. Add Information
+
+                         [POST] 
+                       =>/profile/basic/
+                          
+                         * Image
+                         * Address ( City, Country )
+                         * phoneNumber 
+                         * description 
+
+                    2. Update Information
+                      
+                         [PUT]
+                       =>/profile/basic/
+                          
+                         * Image
+                         * Address ( City, Country )
+                         * phoneNumber 
+                         * description 
+
+                    3. View Information
+                      
+                         [GET]
+                       =>/profile/basic/
+                          
+                         * Image
+                         * Address ( City, Country )
+                         * phoneNumber 
+                         * description 
+
+JOBLESS STUDENT SECTION:-
+
+                => university/jobless
+                   
+                    1. View Information
+                      
+                         [GET]
+                       =>/university/jobless
+                          
+                         * university id
+
+
+EVENTS SECTION:-
+
+                => /university/Event
+                    
+                    1. Add event Information
+
+                         [POST] 
+                       => /university/Event
+                          
+                         * userid
+                         * Image 
+                         * location 
+                         * date
+                         * description
+                         * eventTags
+
+                           [PUT] 
+                       => /university/Event
+                          
+                         * userid
+                         * Image 
+                         * location 
+                         * date
+                         * description
+                         * eventTags
+
+                          [GET] 
+                       => /university/Event
+                          
+                         * userid
+                         * Image 
+                         * location 
+                         * date
+                         * description
+                         * eventTags
+                     
+                         [delete] 
+                       =>university/Event
+                       
+                         * eventid 
+
+
+
+COMPANIES APIS REQUIREMENTS
+
+PROFILE SECTION:-
+
+               => company/profile/basic
+                    
+                    1. Add Information
+
+                         [POST] 
+                       =>/profile/basic/
+                          
+                         * userid
+                         * Image  
+                         * industry
+                         * websiteLink 
+                         * location ( City, Country )
+                         * phoneNumber 
+                         * description
+                         * specialties
+
+                    2. Update Information
+                      
+                         [PUT]
+                         =>/profile/basic/
+                          
+                         * userid
+                         * Image  
+                         * industry
+                         * websiteLink 
+                         * location ( City, Country )
+                         * phoneNumber 
+                         * description
+                         * specialties
+
+
+                    3. View Information
+                      
+                         [GET]
+                       =>/profile/basic/
+                          
+                         * userid
+                         * Image  
+                         * industry
+                         * websiteLink 
+                         * location ( City, Country )
+                         * phoneNumber 
+                         * description
+                         * specialties
+
+
+
+              
+
+JOBS SECTION:-
+
+                => company/job
+                    
+                    1. Add Job Informations
+
+                         [POST] 
+                       =>Company/Job/
+                          
+                         * userid
+                         * Image
+                         * title
+                         * field
+                         * jobType (internship, fulltime) 
+                         * requiredExperience ( number )
+                         * totalPosition
+                         * description
+                         * requiredSkill
+
+                         [GET] 
+                       =>Company/Job/
+                          
+                        * userid
+                         return all added jobs
+                        
+                         [delete] 
+                       =>Company/Job/
+                          
+                         * userid
+                         * jobid 
+
+                    2. View Job Applicants Information
+                      
+                         [GET]
+                       =>company/Job/Applicants/
+
+                            * jobid 
+                            return all Applicants that apply to that job
+
+                        [POST]
+                      => company/Job/Applicant/result
+                         
+                          * userid 
+                          * jobid
+                          
+                  
+EVENTS SECTION:-
+
+            => /Company/Event
+                    
+                    1. Add event Information
+
+                         [POST] 
+                       => /Company/Event
+                          
+                         * userid
+                         * Image 
+                         * location 
+                         * date
+                         * description
+                         * eventTags
+
+                           [PUT] 
+                       => /Company/Event
+                          
+                         * userid
+                         * Image 
+                         * location 
+                         * date
+                         * description
+                         * eventTags
+
+                          [GET] 
+                       => /Company/Event
+                          
+                         * userid
+                         * Image 
+                         * location 
+                         * date
+                         * description
+                         * eventTags
+                     
+                         [delete] 
+                       =>Company/Event
+                       
+                         * eventid 
+                         
+FINAL YEAR PROJECT SECTION:-
+
+                => Company/FYP
+                    
+                    1. Add FYP Information
+
+                         [POST] 
+                       =>Company/FYP
+                          
+                         * userid
+                         * title
+                         * description
+                         * applydate
+                         * requiredSkill in array
+                         * budget 
+
+                          [PUT] 
+                       =>Company/FYP
+                          
+                         * userid
+                         * title
+                         * description
+                         * applydate
+                         * requiredSkill in array
+                         * budget 
+
+                         [GET] 
+                       =>Company/FYP/
+                          
+                         return all save FYP to user
+                        
+                         [delete] 
+                       =>Company/FYP/
+                          
+                         * userid
+                         * eventid 
+
+                    2.  FYP Purposal Information
+                      
+                         [GET]
+                       =>Company/FYP/Purposal
+                          
+                         return all Purposal of paticular fyp
+
+                          [POST]
+                       =>Company/FYP/Status
+                          
+CHALLENAGES SECTION:-
+
+  => Company/challenge
+                    
+                    1. Add FYP Information
+
+                         [POST] 
+                       =>Company/challenge
+                          
+                         * userid
+                         * title
+                         * description
+                         * applydate
+                         * requiredSkill in array
+                         * budget 
+
+                          [PUT] 
+                       =>Company/challenge
+                          
+                         * userid
+                         * title
+                         * description
+                         * applydate
+                         * requiredSkill in array
+                         * budget 
+
+                         [GET] 
+                       =>Company/challenge/
+                          
+                         return all save challenge to user
+                        
+                         [delete] 
+                       =>Company/challenge/
+                          
+                         * challengeid 
+
+                    2.  Challenge Purposal Information
+                      
+                         [GET]
+                       =>Company/Challenge/Purposal
+                          
+                         return all Purposal of paticular Challenge
+
+                          [POST]
+                       =>Company/Challenge/Status

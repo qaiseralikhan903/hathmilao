@@ -1,0 +1,200 @@
+
+
+________________________Students__________________________
+
+
+Dashboard:- 
+
+     -> Statistics
+     -> Profile
+
+Jobs and Internships:-
+
+     -> view jobs
+     -> Filters 
+     -> save job
+     -> apply job
+
+Event Management:-
+ 
+     -> View Events
+     -> Save Events
+     -> Different Filters Applying on Events
+
+Companies:- 
+
+     -> View Companies Profiles
+     -> 
+
+Messages Section:-
+ 
+     -> Career Center
+     -> Companies
+
+Final Year Project Section:-
+ 
+     -> View all the projects
+
+
+________________________Companies__________________________
+
+
+Dashboard:- 
+
+     -> Statistics 
+     -> Profile
+
+Jobs and Internships:-
+ 
+     -> Add Jobs  * Different Filters Applying on jobs
+     -> View Jobs applicants
+
+Event Management:-
+ 
+     -> create Events
+    
+Students:- 
+
+     -> View Students Profiles
+
+Messages Section:-
+ 
+     -> Career Center
+     -> Companies
+
+Final Year Project Section:-
+ 
+     -> Add projects
+     -> View Appliciants of projects
+
+
+________________________Career Center__________________________________
+
+Dashboard:- 
+
+     -> Statistics Dashboard
+     -> Profile
+
+Events Section:-
+
+     -> Add Events
+
+JobLess Student:-
+
+    -> Students Profile 
+
+Messages Section:-
+ 
+     -> Career Center
+     -> Companies
+
+
+________________________MongoDB Schemas__________________________________
+
+
+Jobs:-
+
+   id 
+   title
+   industry(IT,Banking, Education Etc)
+   description
+   salary
+   location
+   compnayname
+   jobtype(Internship, Remote, Full-Time)
+   Experience in number()
+   Total Position
+   Degree Title
+   Minimum Education
+   Apply Before
+   Date
+   Skills
+
+
+Users:-
+
+   Id
+   Name
+   Email
+   Password
+   Role
+  
+Students:- 
+
+   id 
+   userid //Missing in model 
+
+   ImageURL
+   HeadLine   
+   Summary-Profile
+   Phone Number //regex not apply in model
+   Address  
+   Github Link
+
+
+   Education [ { InstitutionName, Degree, Field of Study, StartDate, EndDate, Description }  ]  
+   Experience[ { Title, Company, Location(Country, City), Start Date, End Date, Description} ]
+
+   Skill []
+
+   Languages []
+
+   CV/Resume URL
+
+   Looking For Job(Yes, No)
+
+   Future interest 
+
+   Desired Job
+
+Career Center:-
+
+   Id 
+   Name
+   Description
+ 
+
+Saved Jobs:- 
+
+   ID
+   UserID
+   JobID
+
+
+
+Events:- 
+ 
+   EventId 
+   ImageURL
+   Description
+   Date and Time
+   Location/ Venue
+   Creater Name
+
+Final Year Projects:-
+   
+   id
+   company_id
+   Description
+   Skils Required
+   Time period 
+   Stipend
+
+
+Questions:-
+
+  id
+  userid
+  questions
+  Tags
+  Answers[ {UserId, Description} ]
+ 
+Task:-
+
+
+
+  
+  
+
+
+
